@@ -26,7 +26,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
   end
 end
 
-def get_english_meaning
+def get_english_meaning(yaml_file, emoticon)
   library = load_library(yaml_file)
   response = nil
   library["get_meaning"].each do |emo, trans|
