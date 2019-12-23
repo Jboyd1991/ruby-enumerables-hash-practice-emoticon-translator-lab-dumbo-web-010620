@@ -39,3 +39,4 @@ def get_english_meaning
   else
     return response
   end
+end
